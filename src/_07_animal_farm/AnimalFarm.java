@@ -1,6 +1,6 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
-//    Level 0
-
+//0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000//    Copyright (c) The League of Amazing Programmers 2013-2019
+//Level 0
+ 
 package _07_animal_farm;
 
 import java.applet.AudioClip;
@@ -19,8 +19,9 @@ public class AnimalFarm {
 		/*
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
-		JOptionPane.showInputDialog("type in either playMoo,playQuack,playWoof playMeow.");{
-			
+		String input=JOptionPane.showInputDialog("What is your favorite animal between a cow, duck or  dog?");
+		if(input.equals("cow")) {
+			playMoo();
 		}
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
